@@ -6,7 +6,7 @@ const Header = () => {
     <nav>
       <div className='container nav_container'>
         <Link to='/' className='nav_logo'>
-          <img src="" alt="" />
+          <img src="/mern-blog-assets-main/blog15.jpg" alt="logo image" />
         </Link>
         <ul className='nav_menu'>
           <li><Link to='/profile'>shalom wubu</Link></li>
