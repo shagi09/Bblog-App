@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <nav>
+    <div>
+          <nav>
       <div className='container nav_container'>
         <Link to='/' className='nav_logo'>
           <img src="/mern-blog-assets-main/blog15.jpg" alt="logo image" />
@@ -17,7 +18,10 @@ const Header = () => {
 
       </div>
 
-    </nav>
+    </nav> 
+    </div>
+    
+
 
   )
 }

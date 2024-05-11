@@ -23,8 +23,7 @@ function App() {
 
   return (
     <Routes>
-      <Route element={<Layout/>}>
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Layout><Home/></Layout>} />
       <Route path='register' element={<Register/>} />
       <Route path='login' element={<Login/>} />
       <Route path='logout' element={<Logout/>} />
@@ -38,7 +37,7 @@ function App() {
       <Route path='logout' element={<Logout/>} />
       <Route path='*' element={<ErrorPage/>} />
       <Route path='posts/:id' element={<PostDetail/>} />
-      </Route>
+    
 
 
     </Routes>

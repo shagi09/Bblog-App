@@ -56,8 +56,9 @@ nav{
     top: 0;
     left: 0;
     backdrop-filter: blur(20px);
-}
+} 
 footer{
+    margin-top: 20px;
     background-color: rgb(26, 24, 24);
     height: 150px;
 
