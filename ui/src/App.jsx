@@ -23,20 +23,24 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/' element={<Layout><Home/></Layout>} />
-      <Route path='register' element={<Register/>} />
-      <Route path='login' element={<Login/>} />
-      <Route path='logout' element={<Logout/>} />
-      <Route path='profile/:id' element={<UserProfile/>} />
-      <Route path='authors' element={<Authors/>} />
-      <Route path='create' element={<CreatePost/>} />
-      <Route path='posts/categories/:category' element={<CategoryPosts/>} />
-      <Route path='posts/users/:id' element={<AuthorPosts/>} />
-      <Route path='myposts/:id' element={<DashBoard/>} />
-      <Route path='posts/:id/edit' element={<EditPost/>} />
-      <Route path='logout' element={<Logout/>} />
-      <Route path='*' element={<ErrorPage/>} />
-      <Route path='posts/:id' element={<PostDetail/>} />
+        <Route path="/" element={<Layout><Home /></Layout>} />
+  <Route path="posts/:id" element={<Layout><PostDetail /></Layout>} />
+  <Route path="register" element={<Layout><Register /></Layout>} />
+  <Route path="login" element={<Layout><Login /></Layout>} />
+  <Route path="logout" element={<Layout><Logout /></Layout>} />
+  <Route path="profile/:id" element={<Layout><UserProfile /></Layout>} />
+  <Route path="authors" element={<Layout><Authors /></Layout>} />
+  <Route path="create" element={<Layout><CreatePost /></Layout>} />
+  <Route path="posts/categories/:category" element={<Layout><CategoryPosts /></Layout>} />
+  <Route path="posts/users/:id" element={<Layout><AuthorPosts /></Layout>} />
+  <Route path="myposts/:id" element={<Layout><DashBoard /></Layout>} />
+  <Route path="posts/:id/edit" element={<Layout><EditPost /></Layout>} />
+  <Route path="logout" element={<Layout><Logout /></Layout>} />
+  <Route path="*" element={<Layout><ErrorPage /></Layout>} />
+
+
+
+
     
 
 
