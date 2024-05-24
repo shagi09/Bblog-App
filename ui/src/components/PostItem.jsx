@@ -11,13 +11,13 @@ const PostItem = ({postID,desc,title,thumbnail,category,authorID}) => {
 
       </div>
       <div className='post_content'>
-        <Link to={`/posts/${postID}`}>
+        <Link to={`/posts/${postID}`} className='post-title'>
           <h3>{title}</h3>
         </Link>
         <p>{desc}</p>
         <div className='post_footer'>
           <PostAuthor authorID={authorID}/>
-          <Link to={`posts/categories/${category}`}>{category}</Link>
+          <Link to={`posts/categories/${category}`} className='category'>{category}</Link>
           
 
         </div>

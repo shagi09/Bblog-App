@@ -4,7 +4,7 @@ import avatar from '../images/avatar1.jpg'
 
 const PostAuthor = (authorID) => {
   return (
-    <Link to={`posts/users/df`}>
+    <Link to={`posts/users/df`} className='post-author'>
         <div className='post-author-avatar'>
             <img src={avatar} alt="" />
 

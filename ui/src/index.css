@@ -111,14 +111,52 @@ footer{
 .post{
     margin: 20px;
     background-color: white;
-    box-shadow: 0 0 5px rgba(39, 38, 38, 0.5);
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+.post:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  
+
 }
 .post_thumbnail img{
     border-radius: 10px;
     margin: 10px;
     max-width: 445px;
 }
+.post-author{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.post-author-avatar img{
+    max-height: 40px;
+    border-radius: 10px;
+}
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.post_content{
+    margin: 10px;
+}
+.post-title h3{
+    margin-bottom: 10px;
+    color: black;
+
+}
+.post-author-details h5,small{
+    margin-left: 30px;
+    color: black;
+
+}
+.post_footer .category{
+    color: black;
+}
+
 
 
 
