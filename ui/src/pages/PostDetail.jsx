@@ -16,8 +16,8 @@ const PostDetail = () => {
             </div>
 
             <div className='post-detail-btn'>
-              <button>edit</button>
-              <button>delete</button>
+              <button className='edit-btn'>edit</button>
+              <button className='delete-btn'>delete</button>
             </div>
 
           </div>

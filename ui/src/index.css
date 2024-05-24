@@ -179,7 +179,7 @@ footer{
     justify-content: space-between;
 }
 .post-detail-btn{
-    margin-left: 100px;
+    margin-left: 200px;
     
 
 }
@@ -188,6 +188,22 @@ footer{
 }
 button{
     margin: 5px;
+}
+.edit-btn{
+    background-color: rgb(45, 52, 253);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.delete-btn{
+    background-color: rgb(247, 40, 40);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+
 }
 
 
