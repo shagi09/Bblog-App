@@ -99,6 +99,26 @@ footer{
     border-style: none;
     margin-bottom: 20px;
 }
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+
+
+
+
+}
+.post{
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(39, 38, 38, 0.5);
+    border-radius: 10px;
+}
+.post_thumbnail img{
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 445px;
+}
 
 
 

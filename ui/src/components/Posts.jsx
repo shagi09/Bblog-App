@@ -46,9 +46,12 @@ const Posts = () => {
     const[posts,setPosts]=useState(DUMMY_POSTS)
   return (
     <section className='posts'>
+        <div className='posts-container'>
         {
             posts.map(({id,thumbnail,category,title,desc,authorID})=> <PostItem key={id} postID={id} thumbnail={thumbnail} category={category} title={title} authorID={authorID} desc={desc}/>)
         }
+        </div>
+
             
         
 
