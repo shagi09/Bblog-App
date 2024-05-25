@@ -159,24 +159,30 @@ footer{
     color: black;
 }
 .post_details{
+    background-color: rgb(253, 251, 248);
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 80px;
+
+
+}
+.post-details-container{
     display: flex;
     justify-content: center;
 
-    margin-top: 80px;
-    height: 100vh;
-    background-color: antiquewhite;
-    width: 50%;
-    margin-left: 350px;
+
 
 }
 .post-details-header img{
     width: 50px;
     height: 50px;
+    border-radius: 15px;
 
 }
 .post-details-header{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
 .post-detail-btn{
     margin-left: 200px;
@@ -204,6 +210,16 @@ button{
     padding: 10px;
     border-radius: 10px;
 
+}
+.post-details-content{
+    margin-left: 135px;
+    margin-top: 20px;
+}
+.post-details-image{
+    width: 480px;
+    margin-left: 135px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 
