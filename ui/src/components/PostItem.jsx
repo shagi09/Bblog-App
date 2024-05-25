@@ -17,7 +17,7 @@ const PostItem = ({postID,desc,title,thumbnail,category,authorID}) => {
         <p>{desc}</p>
         <div className='post_footer'>
           <PostAuthor authorID={authorID}/>
-          <Link to={`posts/categories/${category}`} className='category'>{category}</Link>
+          <Link to={`posts/categories/${category}`} className='category'><button className='category-btn'>{category}</button></Link>
           
 
         </div>

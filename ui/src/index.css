@@ -221,6 +221,16 @@ button{
     margin-top: 20px;
     border-radius: 10px;
 }
+.category-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.category-btn:hover{
+    background-color: black;
+    color: white;
+
+}
 
 
 
