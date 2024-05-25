@@ -101,15 +101,23 @@ footer{
     border-style: none;
     margin-bottom: 20px;
 }
-.posts-container{
+.posts-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 80px;
-
-
-
-
 }
+.author-posts-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+}
+.category-posts-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+}
+
+
 .post{
     margin: 20px;
     background-color: white;
