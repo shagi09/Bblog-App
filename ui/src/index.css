@@ -239,6 +239,28 @@ button{
     color: white;
 
 }
+.register-container{
+    margin-top: 80px;
+    margin-left: 470px;
+    
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+input{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+}
+.register p{
+    background-color: rgb(251, 11, 11);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
 
 
 
