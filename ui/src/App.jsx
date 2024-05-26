@@ -17,6 +17,9 @@ import Register from './pages/Register'
 import UserProfile from './pages/UserProfile'
 import AuthorPosts from './pages/AuthorPosts'
 import Layout from './components/Layout'
+import RegisterLayout from './components/RegisterLayout'
+import LogInLayout from './components/LogInLayout'
+
 
 function App() {
 
