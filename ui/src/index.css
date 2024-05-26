@@ -261,6 +261,28 @@ input{
     border-radius: 5px;
     color: white;
 }
+.authors-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.authors{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: rgb(243, 242, 242);
+    width: 200px;
+    height: 100px;
+}
+.authors img{
+    border-radius: 20px;
+}
+.authors-content h4 p{
+    color: black;
+}
 
 
 
