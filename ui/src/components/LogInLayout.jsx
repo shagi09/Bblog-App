@@ -1,16 +1,15 @@
-// LogInLayout.js
-import React from 'react';
-import Layout from './Layout';
+import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
-const LogInLayout = ({ children }) => {
+const LogInLayout = ({children}) => {
   return (
-    <Layout>
-      {children}
-    </Layout>
-  );
-};
+    <div>
+        <Header/>
+        <main>{children}</main>
+      
+    </div>
+  )
+}
 
-// Override the rendering of the footer
-LogInLayout.Footer = () => null;
-
-export default LogInLayout;
+export default LogInLayout

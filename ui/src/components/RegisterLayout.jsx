@@ -1,13 +1,15 @@
 import React from 'react'
-import Layout from './Layout'
+import Header from './Header'
+import Footer from './Footer'
 
 const RegisterLayout = ({children}) => {
   return (
-    <Layout>{children}</Layout>
-
+    <div>
+        <Header/>
+        <main>{children}</main>
+      
+    </div>
   )
 }
-RegisterLayout.Footer = () => null;
-
 
 export default RegisterLayout

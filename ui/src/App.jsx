@@ -28,8 +28,8 @@ function App() {
     <Routes>
         <Route path="/" element={<Layout><Home /></Layout>} />
   <Route path="posts/:id" element={<Layout><PostDetail /></Layout>} />
-  <Route path="register" element={<Layout><Register /></Layout>} />
-  <Route path="login" element={<Layout><Login /></Layout>} />
+  <Route path="register" element={<RegisterLayout><Register /></RegisterLayout>} />
+  <Route path="login" element={<LogInLayout><Login /></LogInLayout>} />
   <Route path="logout" element={<Layout><Logout /></Layout>} />
   <Route path="profile/:id" element={<Layout><UserProfile /></Layout>} />
   <Route path="authors" element={<Layout><Authors /></Layout>} />
