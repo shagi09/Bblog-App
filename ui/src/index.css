@@ -290,6 +290,21 @@ input{
 }
 .user-profile-container{
     margin-top: 80px;
+    margin-left: 650px;
+
+}
+.user-profile-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.user-profile-btn{
+    padding: 10px;
+    margin-left: 80px;
+
+}
+.user-profile h1{
+    margin-right: 50px;
 }
 
 

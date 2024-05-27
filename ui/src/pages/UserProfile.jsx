@@ -33,8 +33,10 @@ const UserProfile = () => {
             <MdMovieEdit/>
           )}
           </label>
+          
 
         </div>
+        <h1>yidnekachew tes</h1>
 
 
       </div>
