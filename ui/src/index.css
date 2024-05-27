@@ -267,21 +267,29 @@ input{
     gap: 50px;
     margin-top: 100px;
     margin-left: 10px;
+    
 }
 .authors{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     border-radius: 15px;
     background-color: rgb(243, 242, 242);
     width: 200px;
     height: 100px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+}
+.authors:hover{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 .authors img{
-    border-radius: 20px;
+    border-radius: 100px;
 }
 .authors-content h4 p{
     color: black;
+}
+.user-profile-container{
+    margin-top: 80px;
 }
 
 
