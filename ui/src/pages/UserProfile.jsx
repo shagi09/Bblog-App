@@ -7,6 +7,19 @@ import avatar from '../images/avatar10.jpg';
 
 const UserProfile = () => {
   const [image,setImage]=useState('')
+  const[data,setData]=useState({
+    name:'',
+    email:'',
+    currentPassword:'',
+    newPassword:'',
+    confirmPassword:''
+  })
+  function HandleInput(e){
+    setData((previousState)=>({
+       ...previousState,[e.target.name]:e.target.value
+    }
+    ))
+  }
 
   function HandleChange(e){
     setImage(e.target.files[0])
@@ -36,7 +49,13 @@ const UserProfile = () => {
           
 
         </div>
-        <h1>yidnekachew tes</h1>
+        <h1>Shalom Wubu</h1>
+        <input type="text" name='FullName' placeholder='FullName' onChange={data.name}/>
+        <input type="email" name='email' placeholder='Email' onChange={data.email}/>
+        <input type="password" name='currentpassword' placeholder='currentPassword' onChange={data.currentPassword}/>
+        <input type="password" name='newpassword' placeholder='newPassword' onChange={data.newPassword}/>
+        <input type="password" name='confirmpassword' placeholder='confirmPassword' onChange={data.confirmPassword}/>
+        <button className='edit-btn'>Update Details</button>
 
 
       </div>

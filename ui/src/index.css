@@ -290,7 +290,8 @@ input{
 }
 .user-profile-container{
     margin-top: 80px;
-    margin-left: 650px;
+
+
 
 }
 .user-profile-image img{
@@ -300,11 +301,18 @@ input{
 }
 .user-profile-btn{
     padding: 10px;
-    margin-left: 80px;
+    margin-left: 0px;
 
 }
-.user-profile h1{
-    margin-right: 50px;
+
+.user-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+input{
+    width: 700px;
 }
 
 
