@@ -38,6 +38,7 @@ function App() {
   <Route path="posts/users/:id" element={<Layout><AuthorPosts /></Layout>} />
   <Route path="myposts/:id" element={<Layout><DashBoard /></Layout>} />
   <Route path="posts/:id/edit" element={<Layout><EditPost /></Layout>} />
+  <Route path="posts/:id/delete" element={<Layout><DeletePost /></Layout>} />
   <Route path="logout" element={<Layout><Logout /></Layout>} />
   <Route path="*" element={<Layout><ErrorPage /></Layout>} />
 
