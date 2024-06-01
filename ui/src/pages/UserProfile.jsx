@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { MdMovieEdit } from "react-icons/md";
 import { FaCheck } from "react-icons/fa";
 import avatar from '../images/avatar10.jpg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,6 +29,7 @@ const UserProfile = () => {
   return (
     <div className='user-profile-container'>
       <div className='user-profile'>
+        <Link to='/myposts/sdf'>My Posts</Link>
         <div className='user-profile-image'>
         {image ? (
           <img src={URL.createObjectURL(image)} alt="Selected" />

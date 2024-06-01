@@ -11,7 +11,7 @@ const Header = () => {
           <img src={image} alt="logo image" />
         </Link>
         <ul className='nav_menu'>
-          <li><Link to='/profile'>shalom wubu</Link></li>
+          <li><Link to='/profile/:id'>shalom wubu</Link></li>
           <li><Link to='/create'>create post</Link></li>
           <li><Link to='/authors'>Authors</Link></li>
           <li><Link to='/logout'>logout</Link></li>

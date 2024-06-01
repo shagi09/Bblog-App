@@ -314,6 +314,49 @@ input{
 input{
     width: 700px;
 }
+.user-profile a{
+    color: black;
+    background-color: rgb(204, 245, 245);
+    border-radius: 20px;
+    padding: 5px;
+}
+.dashboard-container{
+    margin-top: 80px;
+
+}
+.dashboard-content{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: rgb(167, 252, 252);
+    margin: 10px;
+}
+.dashboard-image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.dashboard-image{
+    height: 50px; /* Set the desired height */
+    width: 50px;
+    overflow: hidden;
+
+}
+.dashboard-title{
+    margin-right: 1000px;
+    padding: 10px;
+
+}
+.dashboard-links a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+.dashboard-links{
+    padding-top: 15px;
+}
+
 
 
 
