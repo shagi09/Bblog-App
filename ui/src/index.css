@@ -357,6 +357,19 @@ input{
     padding-top: 15px;
 }.createPost-container{
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createPost{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.error-message{
+    background-color: red;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 

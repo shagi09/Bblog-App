@@ -46,6 +46,7 @@ const CreatePost = () => {
               </select>
             <ReactQuill  formats={formats} value={description} onChange={e=>setDescription(value)}/>
             <input type="file"  value={thumbnail} onChange={e=>setThumbnail(e.target.files[0])}  />
+            <button className='edit-btn'>Submit</button>
 
 
           </div>
