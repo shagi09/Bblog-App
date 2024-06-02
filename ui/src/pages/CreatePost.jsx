@@ -35,10 +35,17 @@ const CreatePost = () => {
             <input type="text" placeholder='title' value={title} onChange={e=>setTitle(e.target.value)}/>
           </div>
           <div className='post-content'>
-            <input type="text" placeholder='Uncategorized' value={category} onChange={e=>setCategory(e.target.value)}/>
-            <select name="" id=""></select>
+            <select name="category"  value={category} onChange={e=>setCategory(e.target.value)} >
+              {
+                Post_Categories.map(cat=>
+                  <option key={cat}>{cat}</option>
+                )
+
+              }
+
+              </select>
             <ReactQuill  formats={formats} value={description} onChange={e=>setDescription(value)}/>
-            <input type="file" onChange={e=>setThumbnail(e.target.files[0])}  />
+            <input type="file"  value={thumbnail} onChange={e=>setThumbnail(e.target.files[0])}  />
 
 
           </div>
