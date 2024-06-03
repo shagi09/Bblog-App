@@ -39,7 +39,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 45rem;
+    gap: 30rem;
 }
 .nav_menu{
     display: flex;
@@ -134,7 +134,7 @@ footer{
 .post_thumbnail img{
     border-radius: 10px;
     margin: 10px;
-    max-width: 445px;
+    width: 445px;
 }
 .post-author{
     display: flex;
@@ -371,6 +371,40 @@ input{
     border-radius: 15px;
     padding: 5px;
 }
+
+/*media queries*/
+@media (max-width: 768px) {
+    .nav_container {
+      display: flex;
+      justify-content: center;
+
+
+
+    }
+  
+    .nav_logo {
+      margin-bottom: 1rem;
+    }
+  
+    .nav_menu {
+      flex-direction: column;
+      justify-content: center;
+
+
+      gap: 1rem;
+
+    }
+    .posts-container{
+        grid-template-columns: 1fr;
+        width: 600px;
+        margin-top: 200px;
+
+      }
+    .post_thumbnail img{
+        width: 700px;
+    }
+  }
+
 
 
 
